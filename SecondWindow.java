@@ -4,10 +4,17 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class SecondWindow extends JFrame {
+    private JPanel panel= new JPanel();
+    private JTextField titleField = new JTextField(300);
+    private JTextField timeField = new JTextField(100);
+    private JTextArea contentField = new JTextArea(300,255);
+    private JButton okButton = new JButton("OK");
+    private boolean okClicked = false;
 
+    
     public SecondWindow() {
-        super("Новая задача");
-        createGUI(new JPanel());
+        super("New task");
+        createGUI(panel);
     }
 
     public SecondWindow(int i, FirstWindow fw) {
@@ -16,32 +23,49 @@ public class SecondWindow extends JFrame {
     }
 
     public void createGUI(JPanel p) {
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //Eldar: Создание окна, панелей и полей с их размерами, положением.
-        titleField.addKeyListener(new KeyAdapter());
-        timeField.addKeyListener(new KeyAdapter());
-        contentField.addKeyListener(new KeyAdapter());
-        setPreferredSize(new Dimension(750, 500));  
+        panel.setLayout(null);
+        panel.setBorder(BorderFactory.createEmptyBorder(5,5,10,5));
+        setContentPane(panel);
+        
+        okButton.setPreferredSize(new Dimension(100, 80));
+        panel.add(okButton);
+        okButton.setBounds(590, 375, 100, 50);
+        
+        titleField.setBounds(10, 15, 475, 25);
+        titleField.setToolTipText("Title");
+        panel.add(titleField);
+
+        timeField.setBounds(10 + 475 + 100 , 15, 120, 25);
+        timeField.setToolTipText("HH.MM");
+        panel.add(timeField);
+
+        contentField.setBounds(10, 15 + 25 + 10, 450 + 100, 375);
+        contentField.setToolTipText("Your task");
+        contentField.setLineWrap(true);
+        contentField.setWrapStyleWord(true);
+        panel.add(contentField);
+
+        //titleField.addKeyListener(new KeyAdapter());
+        //timeField.addKeyListener(new KeyAdapter());
+        //contentField.addKeyListener(new KeyAdapter());
+        setPreferredSize(new Dimension(750, 500));
         pack();
     }
 
-    //Alya:
-    public void changeTitle() {
-        //Изменение заголовка задачи.
+    public String watTitle() {
+        return titleField.getText();
     }
 
-    public void changeTime() {
-        //Изменение времени задачи.
+    public String watTime() {
+        return timeField.getText();
     }
 
-    public void changeContent() {
-        //Изменение содержимого задачи.
+    public String watContent() {
+        return contentField.getText();
     }
-
-    public void changeWindow() {
-        //Не прописывать. Заглушка для перехода в другое окно [Клавиша OK]
-    }
-
+/*
     public class KeyAdapter implements KeyListener {
 
         public void keyTyped(KeyEvent e) {
@@ -57,34 +81,30 @@ public class SecondWindow extends JFrame {
         }
 
     }
-
+*/
     public class MouseAdapter implements MouseListener {
  
         public void mouseClicked(MouseEvent e) {
             JButton button = (JButton) e.getSource();
-            //Bulat: Реализовать клик на поле, на кнопку OK.
+            if (button == okButton) {
+                okClicked = true;
+            }
         }
 
-        //Не нужно прописывать: 
-
         public void mouseEntered(MouseEvent e) {
-            JButton button = (JButton) e.getSource();
-            //Наведение на клавишу
+        
         }
  
         public void mouseExited(MouseEvent e) {
-            JButton button = (JButton) e.getSource();
-            //Выход из зоны клавиши
+        
         }
  
         public void mousePressed(MouseEvent e) {
-            JButton button = (JButton) e.getSource();
-            //Зажатие клавиши
+        
         }
  
         public void mouseReleased(MouseEvent e) {
-            JButton button = (JButton) e.getSource();   
-            //Клавиша отпущена
+        
         }
     
     }
