@@ -1,65 +1,51 @@
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.EmptyBorder;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.io.File;
 import java.util.ArrayList;
 
 public class FirstWindow extends JFrame {
-    private TaskList taskList = new TaskList();
     private JPanel panel = new JPanel();
+    private JPanel leftPanel = new JPanel();
     private JPanel centerPanel = new JPanel();
-    private ArrayList<JCheckBox> checkBoxes = new ArrayList<>();
-    private JButton addButton = new JButton("Add task");
-    private JButton delButton = new JButton(" Delete ");
-    private SecondWindow sw = new SecondWindow();
+    private JButton delButton = new JButton("Delete");
+    private JButton addButton = new JButton("Add Task");
+    private static TaskList taskList = new TaskList();
+    private DefaultListModel<JCheckBox> checkModel = new DefaultListModel<>();
+    private JCheckBoxList checkList;
+    private DefaultListModel<Task> taskModel = new DefaultListModel<>();
+    private JList<Task> list = new JList<>(taskModel);
 
     public FirstWindow() {
         super("Task Manager");
-        ImageIcon img = new ImageIcon("C:\\Users\\User\\Git\\Projects\\Hack Sprint 2\\Base");
-        super.setIconImage(img.getImage());
-        Task t0 = new Task("Ex1", "11:11", "Ne rabotayet 11111", false);
-        Task t1 = new Task("Ex2", "22:22", "Stranno 22222", false);
-        Task t2 = new Task("Ex3", "23:44", "Hmm 33333", false);
-        taskList.setTaskPlace(t0);
-        taskList.setTaskPlace(t1);
-        taskList.setTaskPlace(t2);
-    /*
-        File folder = new File("C:\\Users\\User\\Git\\Projects\\Hack Sprint 2\\res");
-        try {
-            for (File nested : folder.listFiles()) {
-                taskList.setTaskPlace(nested);
-            }
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-    */
+        taskList = readFiles();
         createGUI();
     }
 
     private void createGUI() {
-        setResizable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        panel.setBorder(BorderFactory.createEmptyBorder(5, 5, 10, 5));
+        setResizable(false);
+
+        panel.setBorder(BorderFactory.createEmptyBorder(5, 3, 5, 3));
         panel.setLayout(new BorderLayout());
+
         setContentPane(panel);
+
         centerPanel.setLayout(new FlowLayout());
 
-        DefaultListModel<String> model = new DefaultListModel<>();
-        JList<String> list = new JList<>(model);
-        for (int i = 0; i < taskList.size(); i++) {
-            model.addElement(taskList.get(i).toString());
-            checkBoxes.add(new JCheckBox("", false));
-        }
+        setLists();
 
+        list.setFixedCellHeight(40);
+        list.setFixedCellWidth(650);
         list.setLayoutOrientation(JList.VERTICAL);
         list.addMouseListener(new MouseListener() {
             public void mouseClicked(MouseEvent evt) {
-                /* JList list = (JList) evt.getSource();
-                if ((evt.getClickCount() == 1) && (evt.getButton() == MouseEvent.BUTTON1)) {
-                    sw = new SecondWindow(getTaskList().get(evt), panel);
-                    sw.setVisible(true);
-                    sw.setLocationRelativeTo(null);
-                } */
+                JList list = (JList) evt.getSource();
+                newWindow(taskList.get(list.locationToIndex(evt.getPoint())), FirstWindow.this);
             }
 
             public void mouseEntered(MouseEvent e) {
@@ -74,63 +60,69 @@ public class FirstWindow extends JFrame {
             public void mouseReleased(MouseEvent e) {
             }
         });
-        list.validate();
+
+        checkList.setFixedCellHeight(40);
+        checkList.setLayoutOrientation(JList.VERTICAL);
+        checkList.setVisible(false);
+
+        centerPanel.add(checkList);
         centerPanel.add(list);
 
-        JList<JCheckBox> checkList = new JList<>();
-        checkList.setLayoutOrientation(JList.VERTICAL);
-        checkList.validate();
-        centerPanel.add(checkList);
-
-        JPanel leftPanel = new JPanel();
-        leftPanel.setLayout(new BoxLayout(leftPanel, BoxLayout.Y_AXIS));
+        leftPanel.setLayout(new BorderLayout());
 
         addButton.setPreferredSize(new Dimension(100, 80));
         addButton.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                SecondWindow sw = new SecondWindow(new Task(true), panel);
-                sw.setVisible(true);
-                sw.setLocationRelativeTo(null);
+                newWindow(new Task(), FirstWindow.this);
             }
 
-            public void mouseEntered(MouseEvent e) {}
+            public void mouseEntered(MouseEvent e) {
+            }
 
-            public void mouseExited(MouseEvent e) {}
+            public void mouseExited(MouseEvent e) {
+            }
 
-            public void mousePressed(MouseEvent e) {}
+            public void mousePressed(MouseEvent e) {
+            }
 
-            public void mouseReleased(MouseEvent e) {}
+            public void mouseReleased(MouseEvent e) {
+            }
         });
 
         delButton.setPreferredSize(new Dimension(100, 80));
         delButton.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (!checkList.isEnabled()) {
-                    checkList.setEnabled(true);
+                if (!checkList.isVisible()) {
+                    checkList.setVisible(true);
                 } else {
-                    for (int i = 0; i < taskList.size(); i++) {
-                        if (checkBoxes.get(i).isSelected()) {
-                            remove(i);
+                    for (int i = 0; i < checkModel.getSize(); i++) {
+                        if (checkModel.elementAt(i).isSelected()) {
+                            taskList.remove(i);
+                            Task.removeFile(taskList.get(i).getTitle() + ".txt");
+                            setLists();
                         }
                     }
-                    checkList.setEnabled(false);
+                    checkList.setVisible(false);
                 }
             }
 
-            public void mousePressed(MouseEvent e) {}
+            public void mousePressed(MouseEvent e) {
+            }
 
-            public void mouseReleased(MouseEvent e) {}
+            public void mouseReleased(MouseEvent e) {
+            }
 
-            public void mouseEntered(MouseEvent e) {}
+            public void mouseEntered(MouseEvent e) {
+            }
 
-            public void mouseExited(MouseEvent e) {}
+            public void mouseExited(MouseEvent e) {
+            }
         });
 
-        leftPanel.add(addButton);
-        leftPanel.add(Box.createVerticalGlue());
-        leftPanel.add(delButton);
+        leftPanel.add(addButton, BorderLayout.NORTH);
+        leftPanel.add(delButton, BorderLayout.SOUTH);
 
         getContentPane().add(centerPanel, BorderLayout.CENTER);
         getContentPane().add(leftPanel, BorderLayout.WEST);
@@ -138,15 +130,141 @@ public class FirstWindow extends JFrame {
         pack();
     }
 
-    public JPanel getPanel() {
-        return panel;
+    public void setLists() {
+        taskModel.clear();
+        for (Task t : taskList) {
+            taskModel.addElement(t);
+        }
+        list.validate();
+        checkModel.clear();
+        checkList = new JCheckBoxList(checkModel);
+        ListModel currentList = list.getModel();
+        for (int i = 0; i < currentList.getSize(); i++) {
+            if (currentList.getElementAt(i) != null)
+                checkModel.addElement(new JCheckBox());
+        }
+        checkList.validate();
     }
 
-    public TaskList getTaskList() {
+    public static TaskList getTaskList() {
         return taskList;
     }
 
-    public void handle() {
-        //handling SecondWindow activities
+    public static TaskList readFiles() {
+        File folder = new File("res");
+        TaskList result = new TaskList();
+        try {
+            for (String nested : folder.list()) {
+                result.setTaskPlace(Task.readFile(nested));
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return result;
+    }
+
+    private void newWindow(Task t, FirstWindow fw) {
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                SecondWindow sw = new SecondWindow(t, fw);
+                sw.setVisible(true);
+                sw.setLocationRelativeTo(null);
+            }
+        });
+    }
+
+    public static class TaskList extends ArrayList<Task> {
+        public TaskList() {
+        }
+
+        public void setTaskPlace(Task t) {
+            Task task;
+            int i;
+            int tempHours;
+            int tempMins;
+            boolean taskAdded = false;
+            if (this.size() == 0) {
+                add(t);
+            } else
+                for (i = 0; ((i < this.size()) && (!taskAdded)); i++) {
+                    task = this.get(i);
+                    tempHours = task.getHours();
+                    tempMins = task.getMins();
+                    if (t.getHours() < tempHours) {
+                        add(i - 1, t);
+                        taskAdded = true;
+                    } else if (tempHours == t.getHours()) {
+                        if (tempMins == t.getMins()) {
+                            if (t.equals(task)) {
+                                remove(i);
+                            }
+                            add(i, t);
+                            taskAdded = true;
+                        } else {
+                            if (t.getMins() < tempMins) {
+                                if (i - 1 < 0) {
+                                    add(0, t);
+                                } else
+                                    add(i - 1, t);
+                            } else if (t.getMins() > tempMins) {
+                                add(i + 1, t);
+                            }
+                            taskAdded = true;
+                        }
+                    } else if (t.getHours() > tempHours) {
+                        add(i + 1, t);
+                        taskAdded = true;
+                    }
+                }
+        }
+    }
+
+    public class JCheckBoxList extends JList<JCheckBox> {
+        protected Border noFocusBorder = new EmptyBorder(1, 1, 1, 1);
+
+        public JCheckBoxList() {
+            setCellRenderer(new CellRenderer());
+            addMouseListener(new MouseAdapter() {
+                public void mousePressed(MouseEvent e) {
+                    int index = locationToIndex(e.getPoint());
+                    if (index != -1) {
+                        JCheckBox checkbox = (JCheckBox) getModel().getElementAt(index);
+                        checkbox.setSelected(!checkbox.isSelected());
+                        repaint();
+                        if (checkbox.isSelected()) {
+//                            task4Deleting[index] = true;
+                        } else {
+//                            task4Deleting[index] = false;
+                        }
+                    }
+                }
+            });
+            setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        }
+
+        public JCheckBoxList(ListModel<JCheckBox> model) {
+            this();
+            setModel(model);
+        }
+
+        protected class CellRenderer implements ListCellRenderer<JCheckBox> {
+            public Component getListCellRendererComponent(
+                    JList<? extends JCheckBox> list, JCheckBox value, int index,
+                    boolean isSelected, boolean cellHasFocus) {
+                JCheckBox checkbox = value;
+
+                checkbox.setBackground(isSelected ? getSelectionBackground()
+                        : getBackground());
+                checkbox.setForeground(isSelected ? getSelectionForeground()
+                        : getForeground());
+                checkbox.setEnabled(isEnabled());
+                checkbox.setFont(getFont());
+                checkbox.setFocusPainted(false);
+                checkbox.setBorderPainted(true);
+                checkbox.setBorder(isSelected ? UIManager
+                        .getBorder("List.focusCellHighlightBorder") : noFocusBorder);
+                return checkbox;
+            }
+        }
     }
 }

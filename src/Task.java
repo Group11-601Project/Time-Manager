@@ -1,67 +1,64 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import static java.lang.Integer.valueOf;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
 
 public class Task {
     private int mins;
     private int hours;
     private String title;
     private String content;
-    private String name = "C:\\Users\\User\\Git\\Projects\\Hack Sprint 2\\res\\" + title + ".txt";
 
-    public Task(boolean write) {
-        this("New task", "00:00", "Put your thoughts here", write);
+    public Task() {
+        this("New task", "00:00", " ");
     }
 
-    public Task(String title, String time, boolean write) {
-        this(title, time, " ", write);
-    }
-
-    public Task(String title, String time, String content, boolean write) {
-        Pattern p = Pattern.compile("(?<hours>[0-1][0-9]|2[0-3]):(?<minutes>[0-5][0-9])");
-        Matcher m = p.matcher(time);
-        this.hours = valueOf(m.group("hours"));
-        this.mins = valueOf(m.group("minutes"));
+    public Task(String title, String time, String content) {
+        this.hours = Integer.parseInt(time.substring(0, 2));
+        this.mins = Integer.parseInt(time.substring(3, 5));
         this.title = title;
         this.content = content;
-        if (write) {
-            createNewFile();
-        }
     }
 
-    private void createNewFile() {
-        try (FileWriter writer = new FileWriter(name, false)) {
-            writer.write(hours + ":" + mins);
-            writer.append('\n');
-            writer.write(title);
-            writer.append('\n');
-            writer.write(content);
-            writer.flush();
+    public void createNewFile() {
+        File f = new File("res\\" + this.title + ".txt");
+        try {
+            if (f.exists()) {
+                Task t = readFile(f.getName());
+                if (Task.this.equals(t)) {
+                    removeFile(f.getName());
+                } else
+                    t.title = t.title + " " + t.getTime();
+            }
+            if (f.createNewFile()) {
+                FileWriter writer = new FileWriter(f, false);
+                writer.write(title);
+                writer.append('\n');
+                writer.write(getTime());
+                writer.append('\n');
+                writer.write(content);
+                writer.flush();
+            }
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
     }
 
     public static Task readFile(String name) {
-        int k = 0;
-        String s;
+        File f = new File("res\\" + name);
+        StringBuilder ct = new StringBuilder();
         String tt = "";
         String tm = "";
-        StringBuilder ct = new StringBuilder();
+        String s;
+        int k = 0;
         try {
-            BufferedReader in = new BufferedReader(new FileReader(name));
+            BufferedReader in = new BufferedReader(new FileReader(f));
             try {
                 while ((s = in.readLine()) != null) {
                     if (k == 0) {
-                        tm = s;
+                        tt = s;
                     } else {
                         if (k == 1) {
-                            tt = s;
+                            tm = s;
                         } else {
                             ct.append(s);
                             ct.append("\n");
@@ -75,15 +72,18 @@ public class Task {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        return (new Task(tt, tm, ct.toString(), false));
+        return (new Task(tt, tm, ct.toString()));
     }
 
-    public int getMins() {
-        return mins;
-    }
-
-    public int getHours() {
-        return hours;
+    public static void removeFile(String name) {
+        File f = new File("res\\" + name);
+        try {
+            Files.delete(f.toPath());
+        } catch (NoSuchFileException x) {
+            System.err.format("No such file in ", f.getPath());
+        } catch (IOException x) {
+            System.err.println(x.getMessage());
+        }
     }
 
     public String getTime() {
@@ -104,6 +104,14 @@ public class Task {
         return time;
     }
 
+    public int getMins() {
+        return mins;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -114,5 +122,25 @@ public class Task {
 
     public String toString() {
         return getTime() + " | " + title;
+    }
+
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Task task = (Task) o;
+
+        if (mins != task.mins) return false;
+        if (hours != task.hours) return false;
+        if (!title.equals(task.title)) return false;
+        return true;
+    }
+
+    public int hashCode() {
+        int result = mins;
+        result = 31 * result + hours;
+        result = 31 * result + title.hashCode();
+        result = 31 * result + content.hashCode();
+        return result;
     }
 }
