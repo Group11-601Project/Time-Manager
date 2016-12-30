@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47044541-1cce-49e5-9675-611245c2344a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hack Sprint 2.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/App$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/App.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/FirstWindow$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/FirstWindow$2.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/FirstWindow$3.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/FirstWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/Task.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/TaskList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/Ex1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/Ex2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/Ex3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/null.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TaskList.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/App$1.class" afterPath="$PROJECT_DIR$/out/production/Hack Sprint 2/App$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/App.class" afterPath="$PROJECT_DIR$/out/production/Hack Sprint 2/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow$1.class" afterPath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow$2.class" afterPath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow.class" afterPath="$PROJECT_DIR$/out/production/Hack Sprint 2/SecondWindow.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/App$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/FirstWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/FirstWindow$MouseAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/FirstWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/SecondWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/SecondWindow$MouseAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/SecondWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/Task.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Task Manager/TaskList.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.java" afterPath="$PROJECT_DIR$/src/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FirstWindow.java" afterPath="$PROJECT_DIR$/src/FirstWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SecondWindow.java" afterPath="$PROJECT_DIR$/src/SecondWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Task.java" afterPath="$PROJECT_DIR$/src/Task.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,97 +33,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Hack Sprint 2$App.coverage" NAME="App Coverage Results" MODIFIED="1482322053894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Hack Sprint 2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-              <folding>
-                <element signature="method#Task#1;class#Task#0" expanded="false" />
-                <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-                <element signature="method#readFile#0;class#Task#0" expanded="false" />
-                <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-                <element signature="method#getTime#0;class#Task#0" expanded="false" />
-                <element signature="method#equals#0;class#Task#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="152" column="39" lean-forward="false" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
-              <folding>
-                <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-                <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-                <element signature="class#1480:1999" expanded="false" />
-                <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-                <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-                <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-                <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-                <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-                <element signature="class#2356:2801" expanded="false" />
-                <element signature="class#2904:3833" expanded="false" />
-                <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-                <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-                <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-                <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-                <element signature="class#5207:5419" expanded="false" />
-                <element signature="method#run#0;class#5207:5419" expanded="false" />
-                <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-                <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-                <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-                <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-                <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-                <element signature="e#7375#8033#0" expanded="true" />
-                <element signature="e#8032#8033#0" expanded="true" />
-                <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-                <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="104" column="45" lean-forward="false" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
-              <folding>
-                <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-                <element signature="class#713:1323" expanded="false" />
-                <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-                <element signature="class#2763:3284" expanded="false" />
-                <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-                <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -149,6 +79,10 @@
         <option value="$PROJECT_DIR$/src/SecondWindow.java" />
         <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/src/FirstWindow.java" />
+        <option value="$PROJECT_DIR$/src/lolteam/FirstWindow.java" />
+        <option value="$PROJECT_DIR$/src/lolteam/SecondWindow.java" />
+        <option value="$PROJECT_DIR$/src/lolteam/Task.java" />
+        <option value="$PROJECT_DIR$/src/lolteam/App.java" />
       </list>
     </option>
   </component>
@@ -166,7 +100,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -179,8 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,40 +140,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hack Sprint 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hack Sprint 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DecemberProject1" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -660,20 +582,40 @@
       <workItem from="1482085695002" duration="11823000" />
       <workItem from="1482129374639" duration="16661000" />
       <workItem from="1482187037389" duration="8712000" />
+      <workItem from="1482222248544" duration="6137000" />
+      <workItem from="1482312978345" duration="159000" />
+      <workItem from="1482321142891" duration="9925000" />
+      <workItem from="1482406196702" duration="461000" />
+      <workItem from="1482436467821" duration="28000" />
+      <workItem from="1482486211629" duration="588000" />
+      <workItem from="1482968746000" duration="62000" />
+      <workItem from="1482968817326" duration="5000" />
+      <workItem from="1482968828609" duration="70000" />
+      <workItem from="1482968989862" duration="187000" />
+      <workItem from="1482969199285" duration="154000" />
+      <workItem from="1482969671292" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79391000" />
+    <option name="totallyTimeSpent" value="97329000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740742" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -685,7 +627,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816984" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -700,45 +642,48 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740742" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740742" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32592592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32592592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816984" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -750,15 +695,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Task.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -767,725 +704,74 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="119" selection-end-column="33" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
     <entry file="file://$PROJECT_DIR$/res/Ex1.txt" />
     <entry file="file://$PROJECT_DIR$/res/Ex2.txt" />
     <entry file="file://$PROJECT_DIR$/res/Ex3.txt" />
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
     <entry file="file://$PROJECT_DIR$/Examples/FirstWindow1.java" />
     <entry file="file://$PROJECT_DIR$/res/Ex3.txt" />
     <entry file="file://$PROJECT_DIR$/res/Ex2.txt" />
     <entry file="file://$PROJECT_DIR$/res/Ex1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/TaskList.java">
+    <entry file="file://$PROJECT_DIR$/src/TaskList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="142">
+          <caret line="850" column="0" lean-forward="false" selection-start-line="850" selection-start-column="0" selection-end-line="850" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java">
+    <entry file="file://$PROJECT_DIR$/res/New task1.txt" />
+    <entry file="file://$PROJECT_DIR$/res/New task.txt" />
+    <entry file="file://$PROJECT_DIR$/Hack Sprint 2.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="152" column="39" lean-forward="false" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
-          <folding>
-            <element signature="method#FirstWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#createGUI#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#1480:1999" expanded="false" />
-            <element signature="method#mouseClicked#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseEntered#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseExited#0;class#1480:1999" expanded="false" />
-            <element signature="method#mousePressed#0;class#1480:1999" expanded="false" />
-            <element signature="method#mouseReleased#0;class#1480:1999" expanded="false" />
-            <element signature="class#2356:2801" expanded="false" />
-            <element signature="class#2904:3833" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2904:3833" expanded="false" />
-            <element signature="method#setLists#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#readFiles#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#newWindow#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#5207:5419" expanded="false" />
-            <element signature="method#run#0;class#5207:5419" expanded="false" />
-            <element signature="class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#TaskList#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#setTaskPlace#0;class#TaskList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="method#JCheckBoxList#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="e#7375#8033#0" expanded="true" />
-            <element signature="e#8032#8033#0" expanded="true" />
-            <element signature="method#JCheckBoxList#1;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-            <element signature="class#CellRenderer#0;class#JCheckBoxList#0;class#FirstWindow#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="104" column="45" lean-forward="false" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
-          <folding>
-            <element signature="method#SecondWindow#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#713:1323" expanded="false" />
-            <element signature="method#createGUI#0;class#SecondWindow#0" expanded="false" />
-            <element signature="class#2763:3284" expanded="false" />
-            <element signature="method#mouseClicked#0;class#2763:3284" expanded="false" />
-            <element signature="method#taskClosing#0;class#SecondWindow#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding>
-            <element signature="method#Task#1;class#Task#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#Task#0" expanded="false" />
-            <element signature="method#readFile#0;class#Task#0" expanded="false" />
-            <element signature="method#removeFile#0;class#Task#0" expanded="false" />
-            <element signature="method#getTime#0;class#Task#0" expanded="false" />
-            <element signature="method#equals#0;class#Task#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Task#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lolteam/FirstWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/lolteam/SecondWindow.java" />
+    <entry file="file://$PROJECT_DIR$/src/lolteam/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/lolteam/App.java" />
   </component>
 </project>

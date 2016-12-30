@@ -79,7 +79,7 @@ public class SecondWindow extends JFrame {
         okButton.addMouseListener(new MouseListener() {
             public void mouseClicked(MouseEvent e) {
                 JButton button = (JButton) e.getSource();
-                if (button == okButton) {
+                if (button.equals(okButton)) {
                     taskClosing(fw);
                 }
             }
@@ -110,13 +110,11 @@ public class SecondWindow extends JFrame {
                 options[0]);
         if (n == 0) {
             task = getFields();
-            task.createNewFile();
-            for (Task t : FirstWindow.getTaskList()) {
-                if (t.equals(task)) {
-                    FirstWindow.getTaskList().remove(t);
-                }
+            if (!fw.checkForMatches(task)) {
+                task.createNewFile();
+                fw.getTaskList().add(task);
+                fw.getTaskList().sort();
             }
-            FirstWindow.getTaskList().setTaskPlace(task);
             fw.setLists();
         }
         this.setVisible(false);

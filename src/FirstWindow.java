@@ -14,7 +14,7 @@ public class FirstWindow extends JFrame {
     private JPanel centerPanel = new JPanel();
     private JButton delButton = new JButton("Delete");
     private JButton addButton = new JButton("Add Task");
-    private static TaskList taskList = new TaskList();
+    private TaskList taskList;
     private DefaultListModel<JCheckBox> checkModel = new DefaultListModel<>();
     private JCheckBoxList checkList;
     private DefaultListModel<Task> taskModel = new DefaultListModel<>();
@@ -22,7 +22,7 @@ public class FirstWindow extends JFrame {
 
     public FirstWindow() {
         super("Task Manager");
-        taskList = readFiles();
+        taskList = new TaskList();
         createGUI();
     }
 
@@ -97,13 +97,13 @@ public class FirstWindow extends JFrame {
                 if (!checkList.isVisible()) {
                     checkList.setVisible(true);
                 } else {
-                    for (int i = 0; i < checkModel.getSize(); i++) {
+                    for (int i = 0; i < taskList.size(); i++) {
                         if (checkModel.elementAt(i).isSelected()) {
-                            taskList.remove(i);
                             Task.removeFile(taskList.get(i).getTitle() + ".txt");
-                            setLists();
+                            taskList.remove(i);
                         }
                     }
+                    setLists();
                     checkList.setVisible(false);
                 }
             }
@@ -146,21 +146,17 @@ public class FirstWindow extends JFrame {
         checkList.validate();
     }
 
-    public static TaskList getTaskList() {
-        return taskList;
+    public boolean checkForMatches(Task task) {
+        for (Task t : FirstWindow.this.taskList) {
+            if (t.equals(task)) {
+                return true;
+            }
+        }
+        return false;
     }
 
-    public static TaskList readFiles() {
-        File folder = new File("res");
-        TaskList result = new TaskList();
-        try {
-            for (String nested : folder.list()) {
-                result.setTaskPlace(Task.readFile(nested));
-            }
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-        return result;
+    public TaskList getTaskList() {
+        return taskList;
     }
 
     private void newWindow(Task t, FirstWindow fw) {
@@ -173,49 +169,65 @@ public class FirstWindow extends JFrame {
         });
     }
 
-    public static class TaskList extends ArrayList<Task> {
+    public class TaskList extends ArrayList<Task> {
         public TaskList() {
+            File folder = new File("res");
+            try {
+                for (String nested : folder.list()) {
+                    add(Task.readFile(nested));
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+            sort();
         }
 
-        public void setTaskPlace(Task t) {
-            Task task;
-            int i;
-            int tempHours;
-            int tempMins;
-            boolean taskAdded = false;
-            if (this.size() == 0) {
-                add(t);
-            } else
-                for (i = 0; ((i < this.size()) && (!taskAdded)); i++) {
-                    task = this.get(i);
-                    tempHours = task.getHours();
-                    tempMins = task.getMins();
-                    if (t.getHours() < tempHours) {
-                        add(i - 1, t);
-                        taskAdded = true;
-                    } else if (tempHours == t.getHours()) {
-                        if (tempMins == t.getMins()) {
-                            if (t.equals(task)) {
-                                remove(i);
+        public void sort() {
+            int j, k = this.size() - 1;
+            int lb = 1, ub = k;
+            Task x;
+
+            do {
+                for (j = ub; j > 0; j--) {
+                    if (get(j - 1).getHours() > get(j).getHours()) {
+                        x = get(j - 1);
+                        set(j - 1, get(j));
+                        set(j, x);
+                        k = j;
+                    } else {
+                        if (get(j - 1).getHours() == get(j).getHours()) {
+                            if (get(j - 1).getMins() > get(j).getMins()) {
+                                x = get(j - 1);
+                                set(j - 1, get(j));
+                                set(j, x);
+                                k = j;
                             }
-                            add(i, t);
-                            taskAdded = true;
-                        } else {
-                            if (t.getMins() < tempMins) {
-                                if (i - 1 < 0) {
-                                    add(0, t);
-                                } else
-                                    add(i - 1, t);
-                            } else if (t.getMins() > tempMins) {
-                                add(i + 1, t);
-                            }
-                            taskAdded = true;
                         }
-                    } else if (t.getHours() > tempHours) {
-                        add(i + 1, t);
-                        taskAdded = true;
                     }
                 }
+
+                lb = k + 1;
+
+                for (j = 1; j <= ub; j++) {
+                    if (get(j - 1).getHours() > get(j).getHours()) {
+                        x = get(j - 1);
+                        set(j - 1, get(j));
+                        set(j, x);
+                        k = j;
+                    } else {
+                        if (get(j - 1).getHours() == get(j).getHours()) {
+                            if (get(j - 1).getMins() > get(j).getMins()) {
+                                x = get(j - 1);
+                                set(j - 1, get(j));
+                                set(j, x);
+                                k = j;
+                            }
+                        }
+                    }
+                }
+
+                ub = k - 1;
+            } while (lb < ub);
         }
     }
 

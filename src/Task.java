@@ -21,22 +21,30 @@ public class Task {
 
     public void createNewFile() {
         File f = new File("res\\" + this.title + ".txt");
+        boolean create = true;
         try {
             if (f.exists()) {
                 Task t = readFile(f.getName());
-                if (Task.this.equals(t)) {
-                    removeFile(f.getName());
+                if (!Task.this.equals(t)) {
+                    if (!this.getContent().equals(t.getContent())) {
+                        removeFile(t.title + ".txt");
+                        f = new File("res\\" + this.title + ".txt");
+                        create = true;
+                    } else
+                        create = false;
                 } else
-                    t.title = t.title + " " + t.getTime();
+                    create = false;
             }
-            if (f.createNewFile()) {
-                FileWriter writer = new FileWriter(f, false);
-                writer.write(title);
-                writer.append('\n');
-                writer.write(getTime());
-                writer.append('\n');
-                writer.write(content);
-                writer.flush();
+            if (create) {
+                if (f.createNewFile()) {
+                    FileWriter writer = new FileWriter(f, false);
+                    writer.write(title);
+                    writer.append('\n');
+                    writer.write(getTime());
+                    writer.append('\n');
+                    writer.write(content);
+                    writer.flush();
+                }
             }
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
